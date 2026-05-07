@@ -1,112 +1,68 @@
-# 🛠️ Active Directory Lab – Part 1
+🛠️ Active Directory Support Lab – Part 1
 
-Welcome to my **Active Directory Lab**  This lab demonstrates key Active Directory administration tasks in a small enterprise simulation using **Windows Server 2022** and **Windows 10**. The lab is broken into modular steps to guide you through domain setup, user management, group policies, account security, and more.
+This lab simulates a small enterprise environment using Windows Server 2022 and Windows 10 to practice real‑world IT support and Active Directory administration. It walks through domain setup, user and group management, Group Policy, account security, and common help desk scenarios.
 
----
+🎯 Lab objectives
+By completing this lab, I:
 
-## 🎯 Lab Objectives
+Install and configure a Domain Controller for a new Active Directory domain.
 
-By completing this lab, you will learn how to:
+Create and manage users, security groups, and Organizational Units (OUs) aligned to departments.
 
-- Install and configure a **Domain Controller**
-- Create and manage **Users, Groups, and Organizational Units (OUs)**
-- Apply **Group Policy Objects (GPOs)** for desktops and security policies
-- Configure **file share permissions** and test group-based access
-- Implement **account lockout policies** and password recovery
-- Gain practical, hands-on **Active Directory administration skills**
+Apply Group Policy Objects (GPOs) to control desktop settings and security policies.
 
----
+Configure file share permissions and test group‑based access.
 
-## 🗂️ Table of Contents
+Implement account lockout policies and password recovery workflows.
 
-## 🗂️ Table of Contents
+Practice day‑to‑day Active Directory support tasks in a lab environment.
 
-1. [Lab Preparation](Labprep.md)  
-   Prepare your environment and review prerequisites before starting.
+🗂️ Lab structure
+Each part of the lab is documented in its own walkthrough so it’s easy to follow and revisit specific tasks:
 
-2. [Active Directory Installation](02_ADInstall.md)  
-   Steps to rename your server, install Active Directory Domain Services, promote to Domain Controller, and configure Certificate Services.
+Lab Preparation
+Lab Preparation
+Environment overview, prerequisites, and base configuration before promoting the domain controller.
 
-3. [Users and Organizational Units (OUs)](03_UsersAndOUs.md)  
-   Create users, organize OUs, and configure security groups for departmental access.
+Active Directory Installation
+Active Directory Installation
+Rename the server, install AD DS, promote to Domain Controller, and configure certificate services.
 
-4. [Group Policy Objects (GPOs)](04_GPOs.md)  
-   Apply GPOs for custom wallpapers, lockout policies, and other user/computer configurations.
+Users and Organizational Units (OUs)
+Users and Organizational Units (OUs)
+Design the OU structure, create users, and configure security groups for department‑based access.
 
-5. [Account Lockout & Password Reset](05_AccountLockout.md)  
-   Simulate account lockouts and learn how to reset and unlock user accounts safely.
+Group Policy Objects (GPOs)
+Group Policy Objects (GPOs)
+Create and link GPOs for wallpapers, security baselines, lockout policies, and other user/computer settings.
 
-6. [Lab Summary & Key Takeaways](06_LabSummary.md)  
-   Review what you’ve learned and confirm all objectives were completed successfully.
+Account Lockout & Password Reset
+Account Lockout & Password Reset
+Simulate account lockouts, perform password resets, and safely unlock user accounts the way a help desk would.
 
+Lab Summary & Key Takeaways
+Lab Summary & Key Takeaways
+Summary of what was implemented, issues encountered, how they were resolved, and next steps.
 
----
+🧩 Skills and tools demonstrated
+Active Directory Domain Services (AD DS) installation and configuration.
 
+OU and group design for a small business environment.
 
----
+Group Policy creation, targeting, and troubleshooting.
 
-## ⚡ Tips for Using This Lab
+User lifecycle operations (create, modify, disable, lock/unlock, password reset).
 
-- Follow the steps in **order** to avoid errors.  
-- Use the TOC links to jump directly to each lab section.  
+Basic IT support workflows for Windows clients joined to a domain.
 
----
+⚡ How to use this lab
+Follow the sections in order the first time to avoid configuration issues.
 
-> 🎉 By completing this lab, you’ll gain hands-on experience with Active Directory administration, foundational IT security skills, and a solid understanding of enterprise workflows.
+Use the Table of Contents links to jump back to specific tasks when needed.
 
+Treat each section as a mini “ticket” — read the scenario, then apply the documented steps to resolve it.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+🎉 By completing this lab, I gained practical Active Directory administration experience, stronger foundational security skills, and a better understanding of day‑to‑day enterprise support workflows.
 
 
 
